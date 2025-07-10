@@ -1,0 +1,61 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: Inter;
+    width: 1440px;
+    height: 960px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card-container{
+    background-color: hsl(0, 0%, 12%);
+    width: 384px;
+    height: 612px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.profile-image{
+    margin-top: 40px;
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+}
+.info{
+    margin-top: 23px;
+}
+.name{
+    color: white;
+    font-weight: 500;
+    font-size: 24.9px;
+    margin: 0;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 9px 0px;
+}
+.skill{
+    margin-top: 29px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.social-links{
+    margin: 10px;
+}
+.social-links p{
+    background-color: hsl(0, 0%, 20%);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 96px;
+    border-radius: 9px;
+    margin: 15px 0px;
+}
