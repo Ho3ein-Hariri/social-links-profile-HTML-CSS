@@ -61,7 +61,7 @@ body{
     transition: 0.3s;
 }
 .social-links p:hover{
+    cursor: pointer;
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 12%);
-    cursor: pointer;
 }
